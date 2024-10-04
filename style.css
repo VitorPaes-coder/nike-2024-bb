@@ -1,0 +1,106 @@
+/*RESET*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul,ol,li{
+    list-style: none;
+}
+/*FIM DO RESET*/
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 100px;
+    padding-bottom: 150px;
+    background-color: black;
+
+}
+
+header{
+    height: 100px;
+    display: flex;
+    padding-right: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border: 100px;
+    background-color: black;
+}
+
+header div{
+    display: flex;
+    gap: 24px;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.logo{
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    background-image: ;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+    width: 1300px;
+    height: 50px;
+    color: white;
+}
+.caixa{
+    font-size: 22px;
+    background-color: #313131;
+    width: 150px;
+    height: 35px;
+    border-radius: 17.5px;
+    align-items: center;
+}
+
+.box{
+    background-color: #313131;
+    width: 50px;
+    height: 50px;
+    border-radius: 10.5px;
+}
+
+main{
+    flex-grow: 1;
+    display: flex; 
+    background-color: rgb(250 250 250);
+    background-color: black;
+   
+}
+footer{
+    height: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
