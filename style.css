@@ -83,11 +83,15 @@ h3{
     border-radius: 17.5px;
     align-items: center;
 }
+.icon{
+    width: 100%;
+}
 input{
     border: none;
     outline: none;
     width: 100%;
-    background-color: transparent;
+    background-color: white;
+    display: ;
 }
 .box{
     background-color: #313131;
@@ -95,17 +99,13 @@ input{
     height: 50px;
     border-radius: 10.5px;
 }
-.carrinho{
-    width: 60px;
-    height: 60px;
-}
 
 main{
     flex-grow: 1;
     display: flex; 
     background-color: rgb(250 250 250);
     background-color: black;
-   padding-top: 5%;
+    padding-top: 5%;
 }
 .slogan{
     background-color: black;
@@ -141,6 +141,34 @@ p{
 footer{
     height: 2;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.produtos{
+    display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 70%;
+}
+
+.tenis1{
+    background-color: #313131;
+    width: 350px;
+    height: 170px;
+    border-radius: 30px;
+}
+.tenis2{
+    background-color: #313131;
+    width: 350px;
+    height: 170px;
+    border-radius: 30px;
+}
+.tenis3{
+    background-color: #313131;
+    width: 350px;
+    height: 170px;
+    border-radius: 30px;
 }
